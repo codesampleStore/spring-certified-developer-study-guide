@@ -271,6 +271,10 @@ public class DbConfig {
 }
 ```
 
+Alternative use Environment:
+
+![Screenshot 2024-05-12 at 12 58 48](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/feed5fc8-4b03-4b28-81d1-d8c92bb105d1)
+
 [@PropertySource](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/PropertySource.html) - used to load values from property files — the values can be accessed from [Environment](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/env/Environment.html) or injected by the @Value annotation;
 > 📌 Avaliavle resource prefixes: classpath:, file:, http: 
 

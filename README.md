@@ -173,6 +173,19 @@ If all lifecycle callbacks, annotations and a BeanPostProcessor implementation a
 ## KEY ANNOTATIONS
 [@Bean](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html) - used on factory methods to indicate that the produced object will be managed by the Spring container;
 > 📌 If from a bean definition method another bean definition method is invoked, both within the same configuration class, and the called method is set to have SINGLETON scope then the returned object will always be the same, regardless of the number of invocations; i.e. even on direct calls, the scope defined for the bean determines whether the returning object has to be reused or a new one has to be created.
+> The @Bean annotation is a method-level annotation in the Spring Framework. Part of the Spring Framework’s core container, this annotation plays a pivotal role in enabling Dependency Injection (DI) and Inversion of Control (IoC). It’s used to explicitly declare a single bean, rather than letting Spring do it automatically. The bean returned by the annotated method is registered as a bean in the Spring Application Context.
+'''
+@Configuration
+public class AppConfig {
+    
+    @Bean
+    public MyBeanClass myBean() {
+        return new MyBeanClass();
+    }
+}
+'''
+
+additional resources: https://medium.com/@AlexanderObregon/understanding-the-bean-annotation-in-spring-and-when-to-use-it-dd4396ef8eeb
 
 [@Scope](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Scope.html) - used to indicate the scope for instances of the annotated bean;
 

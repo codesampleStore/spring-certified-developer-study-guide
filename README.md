@@ -177,7 +177,7 @@ If all lifecycle callbacks, annotations and a BeanPostProcessor implementation a
 > The @Bean annotation is a method-level annotation in the Spring Framework. Part of the Spring Framework’s core container, this annotation plays a pivotal role in enabling Dependency Injection (DI) and Inversion of
 Control (IoC). It’s used to explicitly declare a single bean, rather than letting Spring do it automatically. The bean returned by the annotated method is registered as a bean in the Spring Application Context.
 
-'''
+```
 
 @Configuration
 public class AppConfig {
@@ -188,7 +188,7 @@ public class AppConfig {
     }
 }
 
-'''
+```
 
 additional resources: https://medium.com/@AlexanderObregon/understanding-the-bean-annotation-in-spring-and-when-to-use-it-dd4396ef8eeb
 

@@ -233,6 +233,7 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 ![Screenshot 2024-05-12 at 14 07 51](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b2b7dc28-77da-4914-84ad-89e7af1e83e3)
 
+-Dspring.profiles.active=jpa - it will select classes/methods without profile at all and classes/methid with @Profile("jpa")
 
 
 [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html) - generic stereotype annotation used to indicate that a class is a managed component, registering as a bean;

@@ -219,6 +219,11 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 > 📌 Spring creates dynamic proxies for classes annotated with @Configuration and uses CGLIB to extend those class to create proxies. Hence, @Configuration classes must not be final, because final classes cannot be extended, i.e. cannot be subclassed;
 
+> 📌  @Import - provides a way to combine multiple configuration classes:
+
+![Screenshot 2024-05-12 at 08 58 56](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/2cfcaccb-f474-4925-b7c4-bf0e5ea55ff0)
+
+
 [@Import](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html) - used to indicate one or more component class to import — typically from @Configuration classes.
 
 [@ImportAutoConfiguration](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/ImportAutoConfiguration.html) - used to disable the default autoconfiguration flow performed by @EnableAutoConfiguration, importing only the configuration classes provided in the annotation.

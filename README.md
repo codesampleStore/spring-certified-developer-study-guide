@@ -229,7 +229,9 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 ![Screenshot 2024-05-12 at 14 05 08](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/40eb805e-3a34-4ad9-9faa-74b776324314)
 
+![Screenshot 2024-05-12 at 14 06 25](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/30a4e4e6-5f42-4435-84ff-064cf3aee3fc)
 
+![Screenshot 2024-05-12 at 14 07 51](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b2b7dc28-77da-4914-84ad-89e7af1e83e3)
 
 
 

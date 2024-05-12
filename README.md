@@ -197,12 +197,19 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 [@Scope](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Scope.html) - used to indicate the scope for instances of the annotated bean;
 
 > 📌 Singleton - it is default (@Scope("singleton")). The beans are access by multiple threads in the same state (use stateless or immutable beans, synchronized (hard), use a diffeent scope)
+
 > 📌 Prototype - new instabce created every time bean is referenced. (@Scopr(scopeName=prototype)
+
 > 📌 Session - a new instance is created once per user session - web enviroment only
+
 > 📌 Request - a new instance is created once per request - web enviroment only
+
 > 📌 Web Scoket - a new instance is created per web socket session (Spring 4)
+
 > 📌 Refresh - belongs to spring cloud, allow to refresh a single component within applicaiton context
+
 > 📌 Thread - defined but not registered by default, needs to be registered explicitly
+
 > 📌 Custome scope (rarely) - you define a factory for creating bean instances, register to create a custom scope name - multi tenant env for example
 
 [@Autowired](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html) - used at constructors, methods and fields to indicate that the injection (i.e. instantiation) will be managed by the Spring container dinamically;

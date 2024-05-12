@@ -244,7 +244,28 @@ The @Configuration tells Spring to treat this class as a set of configuration in
 
 [@Value](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Value.html) - used at field or method/constructor parameter level to inject value from properties located at .properties/.yml files, SpEL, classpath's resources etc;
 
+```
+@Configuration
+public class DbConfig {
+  @Bean
+  public DataSource dataSource(
+    @Value("${db.driver}") String driver,
+    @Value("${db.url}") String url,
+    @Value("${db.user}") String user,
+    @Value("${db.password}") String password) {
+
+    BasicDataSource ds = new BasicDataSource();
+    ds.setDriverClassName(drivver);
+    ds.setUrl(url);
+    ds.setUser(user);
+    ds.setPassword(password);
+    return ds;
+  }
+}
+```
+
 [@PropertySource](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/PropertySource.html) - used to load values from property files — the values can be accessed from [Environment](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/core/env/Environment.html) or injected by the @Value annotation;
+> 📌 Avaliavle resource prefixes: classpath:, file:, http: 
 
 [@ConfigurationProperties](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationProperties.html) - used to map resource files such as properties or YAML files to Java Bean object.
 

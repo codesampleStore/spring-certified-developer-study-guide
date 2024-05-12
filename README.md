@@ -227,6 +227,10 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 [@Profile](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Profile.html) - used to indicate that a component class or bean is eligiable for registration when the specified profile(s) are active; configuration for specific enviroment. 
 
+![Screenshot 2024-05-12 at 14 05 08](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/40eb805e-3a34-4ad9-9faa-74b776324314)
+
+
+
 
 
 [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html) - generic stereotype annotation used to indicate that a class is a managed component, registering as a bean;

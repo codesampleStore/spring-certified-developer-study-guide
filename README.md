@@ -234,7 +234,7 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 ![Screenshot 2024-05-12 at 09 07 19](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e8dbe6ec-8be2-40a1-9965-0a5e833c824e)
 
-
+The @Configuration tells Spring to treat this class as a set of configuration instructions to be used when the application is starting up.
 
 [@Import](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Import.html) - used to indicate one or more component class to import — typically from @Configuration classes.
 

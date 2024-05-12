@@ -139,6 +139,8 @@ SpEL provides two special built-in variables: `systemProperties` and `systemEnvi
 - **systemProperties** – a java.util.Properties object which provides runtime environment properties, like `os.name`, or JVM argument;
 - **systemEnvironment** – a java.util.Properties object which provides access to environment variables;
 
+![Screenshot 2024-05-12 at 12 41 45](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b9a0e104-a13e-4513-b5a4-079152860f9c)
+
 ## STARTUP INTERFACES
 Spring Boot provides two interfaces to run specific pieces of code as soon as the application starts: [CommandLineRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/CommandLineRunner.html) and [ApplicationRunner](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/ApplicationRunner.html).
 

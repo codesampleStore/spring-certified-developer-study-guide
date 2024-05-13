@@ -141,6 +141,9 @@ Example:
 SpEL provides two special built-in variables: `systemProperties` and `systemEnvironment`:
 - **systemProperties** – a java.util.Properties object which provides runtime environment properties, like `os.name`, or JVM argument;
 - **systemEnvironment** – a java.util.Properties object which provides access to environment variables;
+- **environment** - systemProperties + systemEnvironment
+
+If atribute is not found there ^^ it will depend on context (bean) 
 
 - Inject method return value into a field:
 

@@ -1109,3 +1109,23 @@ $ ./mvnw test -pl spring-crud -Dtest=io.davidarchanjo.controller.ToDoControllerT
 
 
 <a id="note1" href="#note1ref"><sup>1</sup></a> <ins>component classes</ins> - is any class annotated with @Configuration or @Component (including any of its stereotype like @Service, @Repository etc) as well as any JSR-330 compliant class that is annotated with javax.inject annotations.
+
+
+
+- Stereotype annotations:
+
+1. @Component:
+
+a. @Service (Service classes)
+
+b. @Repository (Data access classes)
+
+c. @Controller (Web classes, Spring MVS)
+
+d. @RestController (Rest WebService, json, xml)
+
+e. @Configuration (Java Configuration) 
+
+
+![Screenshot 2024-05-13 at 14 48 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a26c7e95-993f-4643-be05-698e179055be)
+

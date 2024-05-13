@@ -136,7 +136,7 @@ The Spring Expression Language (SpEL for short) is used to query property values
 A SpEL expression begins with `#` and is enclosed by braces, e.g. `#{2 + 2}`. Properties can be referenced in a similar fashion with `$`, and are enclosed by braces too, e.g. `${foo.bar}`. Property placeholders cannot contain SpEL expressions, but expressions can, e.g. `#{'${foo.bar}' + 2}`. **Notice that to access the property contained in the properties file from SpEL, is mandatory to reference the property enclosed by single quotes**.
 
 Example:
-- @Value("#{systemProperties['user.name]'}")
+- @Value("#{systemProperties['user.name]'}") #<expression>
 
 SpEL provides two special built-in variables: `systemProperties` and `systemEnvironment`:
 - **systemProperties** – a java.util.Properties object which provides runtime environment properties, like `os.name`, or JVM argument;

@@ -235,6 +235,22 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 > 📌 @Autowired, when processing field injection, first looks for a bean which type is the same as the field to be injected. If multiple beans of the same type are found, then it may require further qualifications like the bean name or @Qualifier to determine the correct bean to be injected.
 
+> 📌 @Autowired(required=false) - only inject if dependency exist, required is set to true by default
+
+![Screenshot 2024-05-13 at 09 41 15](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/9213235f-41a1-49ec-a9df-22d8762f8d03)
+
+![Screenshot 2024-05-13 at 09 45 25](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/63ba8dab-5809-497b-a067-350f1ddde50a)
+
+![Screenshot 2024-05-13 at 09 47 34](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/825294db-9ef8-40b3-b182-1878127e788b)
+
+> 📌 Disambiguation - At startup: NoSuchBeanDefinitionException, no unique bean of type [TypeName] is defined: expected single bean but found 2...
+
+@Component("beanName")
+@Qualifier("beanName")
+
+![Screenshot 2024-05-13 at 09 50 18](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/08293eec-9676-4947-b8e5-c3ad35916162)
+
+
 [@Qualifier](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Qualifier.html) - used to specify the id of the bean that have to be used for injection when more than one type is eligible, i.e. when there are multiple beans resulting in ambiguity;
 
 [@Primary](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Primary.html) - used to indicate that a bean must be given preference when multiple candidates are qualified to autowire a single-valued dependency, i.e. is used to set higher preference for a given bean when there are multiple ones of the same type;
@@ -255,6 +271,12 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 
 [@Component](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Component.html) - generic stereotype annotation used to indicate that a class is a managed component, registering as a bean;
+
+> 📌  adnotation based configuration
+
+![Screenshot 2024-05-13 at 09 39 56](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a6523e9a-19a6-4474-be1c-8a062c971547)
+
+> 📌 @Autowired
 
 [@Repository](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/stereotype/Repository.html) - is a @Component stereotype annotation used to indicate that a class defines a data repository. Enables automatic translation of exceptions thrown from the underlying persistence layer;
 

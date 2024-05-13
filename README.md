@@ -178,6 +178,9 @@ Spring Boot provides two interfaces to run specific pieces of code as soon as th
 
 [@PreDestroy](https://docs.oracle.com/javaee/7/api/javax/annotation/PreDestroy.html) - used on beans to mark a method as a callback to signal the instance is in the process of being removed from the container;
 
+
+[@PreDestroy](https:![Screenshot 2024-05-13 at 12 23 11](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/634fd4fd-531a-4ad5-9f41-d1bfb01a877a)
+
 ### CALLBACK ORDER EXECUTION
 If all lifecycle callbacks, annotations and a BeanPostProcessor implementation are used in conjuction, the execution sequence goes like this: <br>
 ➡️ **Bean's constructor**<br>

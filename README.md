@@ -146,6 +146,13 @@ SpEL provides two special built-in variables: `systemProperties` and `systemEnvi
 
 ![Screenshot 2024-05-13 at 09 13 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/924315a0-0188-4f42-a457-330a14d74bf4)
 
+- Properties are Strings:
+  
+![Screenshot 2024-05-13 at 09 14 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/6748e16c-ff67-4fcb-b654-2d2312f2c88f)
+
+- Fallback values
+@Value("${daily.limit : 100000}")
+@Value("environment['daily.limit']?:10000") (x ?: y is short for x != numm ? x : y)
 
 ![Screenshot 2024-05-12 at 12 41 45](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b9a0e104-a13e-4513-b5a4-079152860f9c)
 

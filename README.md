@@ -250,6 +250,14 @@ additional resources: https://medium.com/@AlexanderObregon/understanding-the-bea
 
 ![Screenshot 2024-05-13 at 09 50 18](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/08293eec-9676-4947-b8e5-c3ad35916162)
 
+![Screenshot 2024-05-13 at 09 53 20](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/92fb5ba0-483c-4127-931b-d280a5807507)
+
+Using @Value to set Atribute:
+
+![Screenshot 2024-05-13 at 09 55 44](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/c1e8c718-140c-4ad9-ba40-da1e8953b8ad)
+
+![Screenshot 2024-05-13 at 10 09 44](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5db495a5-bf57-423c-b499-764ec8e50406)
+
 
 [@Qualifier](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Qualifier.html) - used to specify the id of the bean that have to be used for injection when more than one type is eligible, i.e. when there are multiple beans resulting in ambiguity;
 

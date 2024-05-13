@@ -142,6 +142,11 @@ SpEL provides two special built-in variables: `systemProperties` and `systemEnvi
 - **systemProperties** – a java.util.Properties object which provides runtime environment properties, like `os.name`, or JVM argument;
 - **systemEnvironment** – a java.util.Properties object which provides access to environment variables;
 
+- Inject method return value into a field:
+
+![Screenshot 2024-05-13 at 09 13 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/924315a0-0188-4f42-a457-330a14d74bf4)
+
+
 ![Screenshot 2024-05-12 at 12 41 45](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b9a0e104-a13e-4513-b5a4-079152860f9c)
 
 ## STARTUP INTERFACES

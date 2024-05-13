@@ -175,8 +175,11 @@ Spring Boot provides two interfaces to run specific pieces of code as soon as th
 
 ### BEAN STATE ANNOTATIONS
 [@PostConstruct](https://docs.oracle.com/javaee/7/api/javax/annotation/PostConstruct.html) - used on beans to mark a method to be executed, like a callback, after the dependency injection is done.
+![Screenshot 2024-05-13 at 14 22 41](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7e574b8b-7d61-420f-abec-c168fc7b2ee9)
 
 [@PreDestroy](https://docs.oracle.com/javaee/7/api/javax/annotation/PreDestroy.html) - used on beans to mark a method as a callback to signal the instance is in the process of being removed from the container;
+
+![Screenshot 2024-05-13 at 14 24 27](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5a0c81bf-1bc7-46a8-9273-cadc9bbce85a)
 
 
 [@PreDestroy](https:![Screenshot 2024-05-13 at 12 23 11](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/634fd4fd-531a-4ad5-9f41-d1bfb01a877a)

@@ -464,6 +464,10 @@ With that in mind, if a property is defined in `/resources/application.propertie
 
 ## OVERVIEW
 Aspect-Oriented Programming (AOP) complements Object-Oriented Programming (OOP) by providing another way of thinking about program structure. The key unit of modularity in OOP is the _class_ whereas in AOP the unit of modularity is the _aspect_.
+![Screenshot 2024-05-14 at 09 17 33](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/fbd2811d-4612-424a-92b0-df3b562dd668)
+
+![Screenshot 2024-05-14 at 09 19 07](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/92de63c5-dd45-4a54-ad9f-151b2fe12bbb)
+
 
 ### CORE CONCEPTS
 * **Cross-Cutting Concerns** - are common functions that span on multiple points of an application, such as logging, transaction management, data validation, etc;

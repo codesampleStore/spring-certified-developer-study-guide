@@ -692,6 +692,15 @@ By default, transactions in JUnit tests are flagged for rollback when they start
 
 By default @DataJpaTest autoconfigures an in-memory database like H2 to be used on testing, as long as one of that type is found in the classpath. To avoid stars an embedded database and use a real one like Postgres we must annotate the test class with `@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)`.
 
+![Screenshot 2024-05-14 at 14 07 32](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b0a4a24b-23cc-46e9-9ec9-b65f4838f587)
+
+![Screenshot 2024-05-14 at 14 08 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1787b251-5416-4f74-8161-f2b11ccfc714)
+
+Integration tests:
+
+![Screenshot 2024-05-14 at 14 12 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/da40efd8-da9e-4a80-ac46-6967ce09210c)
+
+
 ## KEY ANNOTATIONS
 [@Entity](https://javaee.github.io/javaee-spec/javadocs/javax/persistence/Entity.html) - used to specify that the annotated class maps a database entity. If we forget to mark a domain class that will map a database entity with @Entity annotation, we will get an IllegalArgumentException since Spring will not be able to invocate the init method in a not managed type;
 

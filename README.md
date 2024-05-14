@@ -468,6 +468,21 @@ Aspect-Oriented Programming (AOP) complements Object-Oriented Programming (OOP) 
 
 ![Screenshot 2024-05-14 at 09 19 07](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/92de63c5-dd45-4a54-ad9f-151b2fe12bbb)
 
+![Screenshot 2024-05-14 at 09 22 36](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/27fdcc18-dc88-4e41-b783-e8ae85a5d23f)
+
+ApsectJ - byte code injection 
+
+SpringAOP - uses proxy
+
+> 📌 Join Point - a point in the execution of a program such as a method call or exception throw
+
+> 📌 Pointcut - an expression that select one or more Join Point
+
+> 📌 Advice - code to be executed at each selected Join Point
+
+> 📌 Aspect - a module that encapsulates pointcuts and advice
+
+> 📌 Weaving - technique by which aspect are combined with main code
 
 ### CORE CONCEPTS
 * **Cross-Cutting Concerns** - are common functions that span on multiple points of an application, such as logging, transaction management, data validation, etc;

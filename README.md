@@ -1,4 +1,4 @@
-![Screenshot 2024-05-14 at 12 45 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e82ad3a8-0756-496a-a9bc-69a96d72ae79)![banner](./assets/banner.jpg)
+
 </br></br>
 
 # TABLE OF CONTENTS

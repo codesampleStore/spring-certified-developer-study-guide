@@ -1154,3 +1154,26 @@ ApplicationContect is a BeanFactory
 
 ![Screenshot 2024-05-14 at 08 12 46](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b07bdd77-dbc6-4606-805c-b68de7c6aa15)
 
+![Screenshot 2024-05-14 at 08 44 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e2915592-050a-4a68-9323-63e0e7c25d43)
+
+![Screenshot 2024-05-14 at 08 46 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/83431d96-7ae5-48fc-86f3-63c7a25a4299)
+
+![Screenshot 2024-05-14 at 08 46 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/4f6ec81d-746b-4c68-bc8d-caf89c51fc10)
+
+
+> 📌 STEP C: The Use Phase of Created Beans
+
+When you invoke a bean obtained from the context
+
+ApplicationContext context = // get it from somewhere
+TransferService service = context.getBean("transferService", TransferService.class);
+// use it
+service.transfer();
+
+Spring can decide to wrap a component in a proxy (transaction, security, exception handling). It is done by a BeanPostProcessor. 
+
+![Screenshot 2024-05-14 at 08 54 57](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0e1225d7-7f7c-4293-8fff-249b1e70ccd8)
+
+![Screenshot 2024-05-14 at 08 58 28](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/61c6633b-79fb-4690-b77d-779fabdee6e7)
+
+

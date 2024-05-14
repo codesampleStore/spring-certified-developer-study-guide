@@ -484,12 +484,45 @@ SpringAOP - uses proxy
 
 > 📌 Weaving - technique by which aspect are combined with main code
 
+EXAMPLE:
+![Screenshot 2024-05-14 at 09 37 09](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b26842e2-c379-4e1a-a698-f05cd77a6450)
+
+> 📌 @Aspect
+> 📌 @Before - advice (aspectJ adnotation not JUnit) (*) - one argument 
+![Screenshot 2024-05-14 at 09 37 24](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/de1ae0ec-0544-47b9-a5bd-9bbdf2dd943c)
+
+Enable AspectJ
+![Screenshot 2024-05-14 at 09 39 11](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5d4dab90-b951-4d46-b6e2-f281cda5c34d)
+
+
+![Screenshot 2024-05-14 at 09 39 52](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f210e7ec-371b-41fe-8455-d5cc1ed6155b)
+
+![Screenshot 2024-05-14 at 09 42 48](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0a278d1e-e3ce-4c5f-b7be-f5519405bb1b)
+
+![Screenshot 2024-05-14 at 09 49 30](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/791c9250-2908-4931-bc75-d491d97e1fd4)
+
+![Screenshot 2024-05-14 at 10 43 09](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/55e6e41f-ec60-4dbb-86c3-3e7c8a21b7ef)
+
+* - matches once
+.. - match zero or more
+
 ### CORE CONCEPTS
 * **Cross-Cutting Concerns** - are common functions that span on multiple points of an application, such as logging, transaction management, data validation, etc;
 
 * **Join Point** - is any point during the execution of a program, such as a method execution, an exception handling or a field access. In Spring AOP, a join point always represents a method execution;
 
 * **Pointcut** - is an expression language from AOP that matches **Joint Point**. Spring uses the AspectJ pointcut expression language by default;
+
+Common Pointcut Designator
+execution(<method pattern>) - the method must match the pattern
+
+execution(<pattern1>) || execution(<pattern2>) - chain together to create composite pointcuts (&&, ||, !)
+
+Method pattern:
+
+  [Modifiers] ReturnType [ClassType]
+
+    MethodName(Atguments) [throws ExceptionType]
 
 * **Advice** - is an action(s) taken by an **Aspect** at a particular **Join Point**; 
 

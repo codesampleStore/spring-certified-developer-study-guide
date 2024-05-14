@@ -1,4 +1,4 @@
-![banner](./assets/banner.jpg)
+![Screenshot 2024-05-14 at 12 45 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e82ad3a8-0756-496a-a9bc-69a96d72ae79)![banner](./assets/banner.jpg)
 </br></br>
 
 # TABLE OF CONTENTS
@@ -504,7 +504,7 @@ Enable AspectJ
 ![Screenshot 2024-05-14 at 10 43 09](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/55e6e41f-ec60-4dbb-86c3-3e7c8a21b7ef)
 
 * - matches once
-.. - match zero or more
+.. - matches zero or more
 
 ### CORE CONCEPTS
 * **Cross-Cutting Concerns** - are common functions that span on multiple points of an application, such as logging, transaction management, data validation, etc;
@@ -529,8 +529,27 @@ Method pattern:
 
 ![Screenshot 2024-05-14 at 12 23 01](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/98f28a1c-e519-48b6-a369-e6c1cad4ed44)
 
+![Screenshot 2024-05-14 at 12 28 09](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f14884a1-0390-4bc1-8143-9f335159993c)
 
-* **Advice** - is an action(s) taken by an **Aspect** at a particular **Join Point**; 
+![Screenshot 2024-05-14 at 12 34 08](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/070e6b5a-f450-4684-850d-d7a1b39fe5b7)
+
+* **Advice** - is an action(s) taken by an **Aspect** at a particular **Join Point**;
+
+  BeforeAdvice
+  ![Screenshot 2024-05-14 at 12 37 17](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f8b3064f-3b32-4ef9-a442-ab264dfd00dc)
+
+  AfterReturningAdvice
+  ![Screenshot 2024-05-14 at 12 39 21](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/cc22d12f-0b40-4e6b-b5fb-54a526fe9039)
+
+  AfterThrowingAdvice
+  ![Screenshot 2024-05-14 at 12 41 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7e47458f-349b-4744-95f3-abd70462fc9d)
+
+  AfterAdvice
+  ![Screenshot 2024-05-14 at 12 43 31](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/025ef04c-a3cf-4d46-8726-2fcbaa26ca66)
+
+  AroundAdvice
+  ![Screenshot 2024-05-14 at 12 45 13](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/ae8a20a5-5f0d-4391-a309-86fb5e032d98)
+
 
 * **Aspect** - is a class that contains Advices, Join Points etc;
 
@@ -564,6 +583,9 @@ Method pattern:
 
 [@Around](https://www.eclipse.org/aspectj/doc/next/aspectj5rt-api/org/aspectj/lang/annotation/Around.html) - used to mark a method to be executed before and after a Joint Point.
 </br></br>
+
+
+![Screenshot 2024-05-14 at 12 49 03](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/50620db3-aa66-4faa-86cb-3d045d22c8f0)
 
 
 # 7. DATA MANAGEMENT: JDBC, TRANSACTIONS <a id="7-data-management-jdbc-transactions-" href="#7"></a>

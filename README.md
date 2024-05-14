@@ -535,19 +535,19 @@ Method pattern:
 
 * **Advice** - is an action(s) taken by an **Aspect** at a particular **Join Point**;
 
-  BeforeAdvice
+  Before Advice
   ![Screenshot 2024-05-14 at 12 37 17](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f8b3064f-3b32-4ef9-a442-ab264dfd00dc)
 
-  AfterReturningAdvice
+  AfterReturning Advice
   ![Screenshot 2024-05-14 at 12 39 21](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/cc22d12f-0b40-4e6b-b5fb-54a526fe9039)
 
-  AfterThrowingAdvice
+  AfterThrowing Advice
   ![Screenshot 2024-05-14 at 12 41 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7e47458f-349b-4744-95f3-abd70462fc9d)
 
-  AfterAdvice
+  After Advice
   ![Screenshot 2024-05-14 at 12 43 31](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/025ef04c-a3cf-4d46-8726-2fcbaa26ca66)
 
-  AroundAdvice
+  Around Advice
   ![Screenshot 2024-05-14 at 12 45 13](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/ae8a20a5-5f0d-4391-a309-86fb5e032d98)
 
 

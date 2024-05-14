@@ -1124,8 +1124,6 @@ c. @Controller (Web classes, Spring MVS)
 
 d. @RestController (Rest WebService, json, xml)
 
-e. @Configuration (Java Configuration) 
-
 
 ![Screenshot 2024-05-13 at 14 48 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a26c7e95-993f-4643-be05-698e179055be)
 

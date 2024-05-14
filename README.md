@@ -524,6 +524,12 @@ Method pattern:
 
     MethodName(Atguments) [throws ExceptionType]
 
+    ![Screenshot 2024-05-14 at 12 21 11](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/361bb89f-e4c0-4bfb-b571-d50ba2808efd)
+
+
+![Screenshot 2024-05-14 at 12 23 01](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/98f28a1c-e519-48b6-a369-e6c1cad4ed44)
+
+
 * **Advice** - is an action(s) taken by an **Aspect** at a particular **Join Point**; 
 
 * **Aspect** - is a class that contains Advices, Join Points etc;

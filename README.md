@@ -1112,7 +1112,7 @@ $ ./mvnw test -pl spring-crud -Dtest=io.davidarchanjo.controller.ToDoControllerT
 
 
 
-- Stereotype annotations:
+- Stereotype annotations (org.springframework.stereotype):
 
 1. @Component:
 
@@ -1126,4 +1126,31 @@ d. @RestController (Rest WebService, json, xml)
 
 
 ![Screenshot 2024-05-13 at 14 48 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a26c7e95-993f-4643-be05-698e179055be)
+
+13. Spring Container
+
+a. Bean Lifecycle  Initialization -> Usage -> Destruction
+- Initialization - when a context is created, the initialiation phaze completed
+ ```
+    ApplicationContext context = SpringApplication.run(AppConfig.class);
+ ```
+> 📌 STEP A: Load & Process Bean Definitions
+
+![Screenshot 2024-05-14 at 08 23 37](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/592f99f3-e2cb-4bf2-b8b1-48a319dc9217)
+![Screenshot 2024-05-14 at 08 28 41](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/16db11e2-2939-4416-a9af-9717cb9a99cf)
+
+ApplicationContect is a BeanFactory 
+
+- BeanFactoryPostProcessor
+![Screenshot 2024-05-14 at 08 33 34](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/c308163c-20b7-4226-b0b5-8e9f39573c7a)
+
+![Screenshot 2024-05-14 at 08 34 35](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/c07212d2-937e-443d-bd2b-561ffe28dcba)
+
+![Screenshot 2024-05-14 at 08 36 56](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/cd72e14b-020f-488e-b227-366cd87475a9)
+
+![Screenshot 2024-05-14 at 08 37 10](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/9368314f-14d0-45a7-b4b7-6bbab86816fd)
+
+> 📌 STEP B: Perform Bean Creation
+
+![Screenshot 2024-05-14 at 08 12 46](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b07bdd77-dbc6-4606-805c-b68de7c6aa15)
 

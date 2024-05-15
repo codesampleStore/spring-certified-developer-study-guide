@@ -709,9 +709,34 @@ Spring has SpringExtension
 
 ![Screenshot 2024-05-14 at 14 08 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1787b251-5416-4f74-8161-f2b11ccfc714)
 
+![Screenshot 2024-05-15 at 08 29 48](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f7fdca91-3e30-41c8-8fe2-a7f22764b566)
+
+
 Integration tests:
 
 ![Screenshot 2024-05-14 at 14 12 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/da40efd8-da9e-4a80-ac46-6967ce09210c)
+
+1. If test changes state of components you can use @DiritesContext addnotation to tell spring to destroy cached context amd create new context.
+
+```
+@Test
+@DirtyContext
+public void test() {
+  transferService.setMaxTransfer(0);
+}
+```
+
+2. ```
+   @SpringJUnitCOnfig(SystemTestConfig.class) // @ExtednWith(SpringExtension.class) and @ContextConfiguration(SystemTextConfig.class)
+   @TestPropertiesSource(properties={"username=foo", "password=bar"}, locations="classpath:/transfer-test.properties")
+   public class TransferServiceTest {
+      
+   }
+  ```
+
+> Configuration Tests using Spring Profiles and working with Database
+
+![Screenshot 2024-05-15 at 08 54 57](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d03655dc-ea7e-4c23-81a4-a0268f1c5ed4)
 
 
 ## KEY ANNOTATIONS

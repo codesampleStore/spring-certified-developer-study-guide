@@ -692,6 +692,19 @@ By default, transactions in JUnit tests are flagged for rollback when they start
 
 By default @DataJpaTest autoconfigures an in-memory database like H2 to be used on testing, as long as one of that type is found in the classpath. To avoid stars an embedded database and use a real one like Postgres we must annotate the test class with `@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)`.
 
+Spring has rich testing support based on **TestContect** framework. It defines an ApplicationContect for your tests.
+
+@ContectConfiguration defines the spring configuration to use. It is included in spring-test.jar.
+
+JUnit 5 uses @ExtendWith
+
+JUnit4 uses @RunWIth (runners) - no multiple runners at the same time
+
+Spring has SpringExtension
+
+
+![Screenshot 2024-05-15 at 08 19 46](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0f6a7a08-f25c-4921-b75c-3126a816a7a7)
+
 ![Screenshot 2024-05-14 at 14 07 32](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b0a4a24b-23cc-46e9-9ec9-b65f4838f587)
 
 ![Screenshot 2024-05-14 at 14 08 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1787b251-5416-4f74-8161-f2b11ccfc714)

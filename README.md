@@ -688,6 +688,9 @@ Spring Boot allows to configure DataSource in two ways: programmatically via a @
 
 
 ## TESTING
+
+https://docs.spring.io/spring-framework/reference/testing/testcontext-framework.html
+
 By default, transactions in JUnit tests are flagged for rollback when they start. However, if the method is annotated with @Commit or @Rollback(false), they start flagged for commit instead.
 
 By default @DataJpaTest autoconfigures an in-memory database like H2 to be used on testing, as long as one of that type is found in the classpath. To avoid stars an embedded database and use a real one like Postgres we must annotate the test class with `@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)`.

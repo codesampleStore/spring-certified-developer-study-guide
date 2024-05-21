@@ -1307,3 +1307,17 @@ Spring can decide to wrap a component in a proxy (transaction, security, excepti
 ![Screenshot 2024-05-14 at 08 58 28](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/61c6633b-79fb-4690-b77d-779fabdee6e7)
 
 
+
+**JDBC**
+
+> 📌 JdbcTemplate (template design pattern)
+> JdbcTemplate template = new JdbcTemplate(dataSource);
+
+![Screenshot 2024-05-21 at 09 14 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/18740895-ae86-47ee-ace9-dd0be507b2c3)
+
+![Screenshot 2024-05-21 at 09 15 54](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a0ee8e2d-ab20-4120-8def-f71c8b847891)
+
+![Screenshot 2024-05-21 at 09 16 07](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/58542c6f-2559-49f8-a285-ea0567fa305b)
+
+![Screenshot 2024-05-21 at 09 27 24](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/60b0b076-0a56-4a4d-bcd1-9b0c68dd877a)
+

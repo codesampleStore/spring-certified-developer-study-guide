@@ -605,6 +605,26 @@ Method pattern:
 
 ![Screenshot 2024-05-22 at 11 18 51](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/632ccf06-1311-484a-a692-cbeedf50d609)
 
+![Screenshot 2024-05-22 at 12 09 06](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/2dedf976-6412-4a93-84e9-95d8ac4f2a50)
+
+![Screenshot 2024-05-22 at 12 10 54](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d9bbcf3b-5419-48fe-81d8-aa09b7925881)
+
+> 📌 PlatformTransactionManager interface
+Implementations:
+
+> DataSourceTransactionManager
+
+> JmsTransactionManager
+
+> JpaTransactionManager
+
+> JtaTransactionManager
+
+> WebLogicJtaTransactionManager
+
+> WebSphereUwTransactionManager
+
+
 <p>
   <b>Transaction</b> is a single logical unit of work which could be composed by one or many actions that potentially modify the content of a database, i.e. a sequence of actions that are considered as a single logical unit by the application. For an application, if any action running into a transactional context fails then all other actions gets rolled back. In Spring, database transaction is by default <code>auto-commit</code>, i.e. every SQL statement runs in its own transaction and will commit after execution. <i>With @Transactional in place, by default Spring will only rolls back on <b>unchecked exceptions</b> (RuntimeException and its subclasses)</i>. To make a transaction rolls back on checked exception we have to specify it on the @Transaction's <code>rollbakFor</code> parameter.
 </p>

@@ -1321,3 +1321,6 @@ Spring can decide to wrap a component in a proxy (transaction, security, excepti
 
 ![Screenshot 2024-05-21 at 09 27 24](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/60b0b076-0a56-4a4d-bcd1-9b0c68dd877a)
 
+![Screenshot 2024-05-21 at 09 55 24](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7c498c55-1fc9-4291-a174-772c6f1a5744)
+
+

@@ -435,6 +435,18 @@ By default, Spring Boot will find and load `application.[properties|yml]` files 
 
 With that in mind, if a property is defined in `/resources/application.properties` and there is a definition for the same property in `/resources/config/application.properties` with a different value, the value from the latter location will take precedence over the former.
 
+
+![Screenshot 2024-06-04 at 14 32 54](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/69da560a-db8d-4cda-9442-92a354d916cc)
+
+
+@ConfigurationProperties(prefix="rewards.client")
+@Component // make Configuration class spring managed bean 
+
+![Screenshot 2024-06-04 at 14 34 19](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/bf8b0222-9317-4fad-87c2-6f4af28d03dc)
+
+
+![Screenshot 2024-06-04 at 14 37 26](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/fa9cbe85-e5eb-4802-abed-6ec15e68492d)
+
 </br>
 
 ## KEY ANNOTATIONS

@@ -457,6 +457,9 @@ With that in mind, if a property is defined in `/resources/application.propertie
 [@SpringBootApplication](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/SpringBootApplication.html) - is a combination of @Configuration, @EnableAutoConfiguration, and @ComponentScan annotations with their default attributes;
 
 [@EnableAutoConfiguration](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html) – used to indicates to ApplicationContext to add beans based on the dependencies on the classpath automatically;
+![Screenshot 2024-06-05 at 14 46 41](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0cb0051d-1639-4d03-85c5-1703bba20a42)
+
+
 
 [@ComponentScan](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/ComponentScan.html) – used to indicate to ApplicationContext to scan for other components, configurations and beans in the same package as the Application class and below;
 

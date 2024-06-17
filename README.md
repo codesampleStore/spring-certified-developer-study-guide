@@ -1366,3 +1366,42 @@ Spring can decide to wrap a component in a proxy (transaction, security, excepti
 ![Screenshot 2024-05-21 at 09 55 24](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7c498c55-1fc9-4291-a174-772c6f1a5744)
 
 
+
+
+Spring Boot - SPring DATA JPA
+
+org.springframework.boot.spring-boot-starter-data-jpa
+- spring-boot-starter.jar
+- spring-boot-starter-jdbc.jar
+- spring-boot-starter-aop.jar
+- spring-data-jpa.jar
+- hibernate-core
+- javax.transaction-api
+
+If JPA is on calsspath, SPring Bootw automatically 
+- auto-configures a DataSource
+- auto-configures an EntityManagerFactoryBean
+- auto-configures a JpaTransactionManager
+<img width="869" alt="Screenshot 2024-06-17 at 11 11 29" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/9b53a7d5-f3fd-4032-ad8e-63d91e1a7eaf">
+
+<img width="1218" alt="Screenshot 2024-06-17 at 11 14 56" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1f9db96b-52c0-44f7-a5a2-41098492b002">
+
+<img width="860" alt="Screenshot 2024-06-17 at 11 18 00" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7937185e-3cf9-408f-b348-d3e1d1055905">
+
+
+<img width="867" alt="Screenshot 2024-06-17 at 11 21 55" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/332478d0-2389-4904-84c4-5f8e920b597e">
+T - type od data
+
+K - type of primary key
+
+
+<img width="1225" alt="Screenshot 2024-06-17 at 11 23 10" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/f0d45034-ed07-4201-b515-cafe745ee17f">
+
+<img width="1217" alt="Screenshot 2024-06-17 at 11 24 27" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/15484b76-f883-4090-93a5-f40fe3bb8c7e">
+
+<img width="1224" alt="Screenshot 2024-06-17 at 11 25 20" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/feb394c3-c249-42b1-8282-174bc7ad47a7">
+
+<img width="1214" alt="Screenshot 2024-06-17 at 11 25 55" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/227481ab-fe7a-4753-badc-0cf437bd2a14">
+
+
+<img width="1208" alt="Screenshot 2024-06-17 at 11 28 47" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/3a6cc9ed-1634-4921-98b6-0a0f97a65682">

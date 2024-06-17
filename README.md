@@ -1405,3 +1405,6 @@ K - type of primary key
 
 
 <img width="1208" alt="Screenshot 2024-06-17 at 11 28 47" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/3a6cc9ed-1634-4921-98b6-0a0f97a65682">
+
+<img width="1219" alt="Screenshot 2024-06-17 at 12 08 37" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/76fae9b0-80f6-4a7e-afb2-588077ceb430">
+

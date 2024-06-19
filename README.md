@@ -1408,3 +1408,11 @@ K - type of primary key
 
 <img width="1219" alt="Screenshot 2024-06-17 at 12 08 37" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/76fae9b0-80f6-4a7e-afb2-588077ceb430">
 
+<img width="1199" alt="Screenshot 2024-06-19 at 08 55 35" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/da7538de-6509-4643-b773-75c99923db0e">
+
+<img width="871" alt="Screenshot 2024-06-19 at 08 56 25" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d117178a-1f0d-4164-8644-0792ff614855">
+
+<img width="1211" alt="Screenshot 2024-06-19 at 08 57 57" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/62b46741-4a1b-4a31-965f-1e1787f76431">
+
+
+

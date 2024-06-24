@@ -1415,4 +1415,16 @@ K - type of primary key
 <img width="1211" alt="Screenshot 2024-06-19 at 08 57 57" src="https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/62b46741-4a1b-4a31-965f-1e1787f76431">
 
 
+    @Entity - Marks class as a JPA persistent class.
+    
+    @Table - Specifies the exact table name to use on the DB (would be "Account" if unspecified).
+    
+    @Id - Indicates the field to use as the primary key on the database.
+    
+    @Column - Identifies column-level customization, such as the exact name of the column on the table.
+    
+    @OneToMany - Identifies the field on the 'one' side of a one to many relationship.
+    
+    @JoinColumn - Identifies the column on the 'many' table containing the column to be used when joining. Usually a foreign key.
+
 

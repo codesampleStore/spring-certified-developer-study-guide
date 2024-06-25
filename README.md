@@ -841,6 +841,9 @@ If @RestController is being used, @ResponseBody can be omitted.
 
 ![Screenshot 2024-06-25 at 09 48 55](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a18efd5f-2198-4c33-a79a-f37367c1787b)
 
+![Screenshot 2024-06-25 at 09 57 42](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/acfd42fd-dd6e-4a67-8755-9223d3a67c85)
+
+
 
 ## SAMPLE PROJECTS
 - [spring-crud](./spring-crud/)

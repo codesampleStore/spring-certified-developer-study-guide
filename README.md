@@ -771,17 +771,18 @@ public void test() {
 }
 ```
 
-2. ```
+2. 
    @SpringJUnitCOnfig(SystemTestConfig.class) // @ExtednWith(SpringExtension.class) and @ContextConfiguration(SystemTextConfig.class)
    @TestPropertiesSource(properties={"username=foo", "password=bar"}, locations="classpath:/transfer-test.properties")
    public class TransferServiceTest {
       
    }
-  ```
+  
 
 > Configuration Tests using Spring Profiles and working with Database
 
 ![Screenshot 2024-05-15 at 08 54 57](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d03655dc-ea7e-4c23-81a4-a0268f1c5ed4)
+
 
 
 ## KEY ANNOTATIONS

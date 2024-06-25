@@ -808,6 +808,40 @@ repository methods to execute both JPQL or native SQL queries;
 
 
 # 9. SPRING MVC <a id="9-spring-mvc-" href="#9"></a>
+
+
+![Screenshot 2024-06-25 at 09 16 43](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0dfbdd1e-2b16-4e35-a347-83c77a723ea1)
+
+@ResponseBody defines a REST respnse. It turns off the View handling subsystem.
+
+![Screenshot 2024-06-25 at 09 26 11](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/eda7ba95-082b-4a8e-8bec-2257012c23b4)
+
+If @RestController is being used, @ResponseBody can be omitted.
+@RestController incorporates @Controllse and @responseBody
+
+
+![Screenshot 2024-06-25 at 09 32 43](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/2583fd2f-c649-4275-9a19-8377995c8c1b)
+
+![Screenshot 2024-06-25 at 09 35 01](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/cb59b518-8718-4d61-8bda-a2a2734ea9e8)
+
+- @RequestParam - account?userId=1234
+
+![Screenshot 2024-06-25 at 09 40 20](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/4029da84-8825-46fd-a2bc-d42c0c9b7a4a)
+  
+- @PathVariable - account/1234
+
+![Screenshot 2024-06-25 at 09 41 07](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7222d200-29d3-40dc-b924-5cc91091e85e)
+
+![Screenshot 2024-06-25 at 09 42 40](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1ff0cbdf-f5fc-459a-9c03-094e3fcba523)
+
+![Screenshot 2024-06-25 at 09 45 26](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/edfe7ba2-afde-429e-9532-503e80b3eecf)
+
+
+- Message Converters
+
+![Screenshot 2024-06-25 at 09 48 55](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/a18efd5f-2198-4c33-a79a-f37367c1787b)
+
+
 ## SAMPLE PROJECTS
 - [spring-crud](./spring-crud/)
 - [spring-mvc](./spring-mvc/)

@@ -121,6 +121,11 @@ Follows some common examples of mapping correspondence between the HTTP method, 
 
 ![Screenshot 2024-06-27 at 15 01 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/99ea808e-fd90-4cc1-b01e-f3d255b0ee31)
 
+DELETE:
+
+![Screenshot 2024-06-27 at 15 05 40](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7a96058a-ab60-44a2-afce-d4e538d50602)
+
+
 </br>
 
 # 4. SPRING CORE CONCEPTS <a id="4-spring-core-concepts-" href="#4"></a>

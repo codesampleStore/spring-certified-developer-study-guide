@@ -94,6 +94,33 @@ Follows some common examples of mapping correspondence between the HTTP method, 
 | PATCH  | `/todos/{id}` | Partially updates todo referenced by `id`
 | DELETE | `/todos/{id}` | Deletes todo referenced by `id`
 
+
+
+![Screenshot 2024-06-27 at 14 47 28](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/602d42a3-6fe5-4e5b-8614-009ad5a7a69a)
+
+![Screenshot 2024-06-27 at 14 48 40](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/157f4ccb-1461-43b5-8574-43403e56db73)
+
+![Screenshot 2024-06-27 at 14 48 50](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/ea15b370-0d32-49a4-820f-b06156870851)
+
+![Screenshot 2024-06-27 at 14 50 00](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d86f419d-ec20-4a95-b3bd-b53c38df7ce8)
+
+
+![Screenshot 2024-06-27 at 14 51 03](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1d752540-7c84-418d-a829-6178d262248a)
+
+![Screenshot 2024-06-27 at 14 52 00](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b930cfd1-b762-4050-8b30-30fa622b789f)
+
+![Screenshot 2024-06-27 at 14 53 48](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/fee317fc-4bde-4011-aee7-70d691eabeca)
+
+![Screenshot 2024-06-27 at 14 57 37](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7284eb2d-b5c1-4041-9faa-340f32708ffa)
+
+
+![Screenshot 2024-06-27 at 14 58 48](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/18531616-003c-4fed-9390-e63f40ba462e)
+
+
+![Screenshot 2024-06-27 at 14 59 12](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/364cd4fa-e363-4663-96dc-395682b88597)
+
+![Screenshot 2024-06-27 at 15 01 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/99ea808e-fd90-4cc1-b01e-f3d255b0ee31)
+
 </br>
 
 # 4. SPRING CORE CONCEPTS <a id="4-spring-core-concepts-" href="#4"></a>

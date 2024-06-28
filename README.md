@@ -126,6 +126,28 @@ DELETE:
 ![Screenshot 2024-06-27 at 15 05 40](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/7a96058a-ab60-44a2-afce-d4e538d50602)
 
 
+REST TEMPLATE - blocking client
+
+![Screenshot 2024-06-28 at 09 38 13](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/9e05bcdd-202a-4aa4-bb55-d1bf25f05fda)
+
+- GET - getForObject
+- POST - postForLocation
+
+![Screenshot 2024-06-28 at 10 03 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d425d014-ead4-4d24-8b4d-c27916ef14e5)
+
+
+![Screenshot 2024-06-28 at 10 03 33](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/8ed822f8-1862-4bbb-8fa5-72f6a82256cd)
+
+![Screenshot 2024-06-28 at 10 06 25](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5e9ed6ea-7548-4cae-9575-879a37049a4e)
+
+![Screenshot 2024-06-28 at 10 11 22](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/926cae66-f841-45c2-a576-ba35a3dbd213)
+
+WebClient - non blocking, reactive
+
+
+
+
+
 </br>
 
 # 4. SPRING CORE CONCEPTS <a id="4-spring-core-concepts-" href="#4"></a>

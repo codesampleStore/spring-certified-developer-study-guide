@@ -1520,3 +1520,38 @@ K - type of primary key
     @JoinColumn - Identifies the column on the 'many' table containing the column to be used when joining. Usually a foreign key.
 
 
+
+
+** Spring Boot Testing Framework **
+-------------------------------
+
+
+![Screenshot 2024-07-03 at 08 51 59](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b5c2ef77-2ebd-490c-bab4-406a8a5784ae)
+![Screenshot 2024-07-03 at 08 55 45](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/fd4c92f7-a498-47f4-a550-c4b7e9db9c14)
+
+- @SpringBootTest
+- @WebMvcTest - bootstrap web layer
+- @WebFluxTest
+- @DataJpaTest
+- @DataJdbcTest
+- @JdbcTest
+- @DataMongoTest
+- @DataRedisTest
+- @MockBean
+
+
+# spring-boot-starter-test
+
+- JUnit: JUnit 5 is default for Spring Boot 2.2
+- Spring Test & Spring Boot Test: Testing annotations
+- AssertJ: Afluent assertion library
+- Hamcrest: a library of matcher
+- Mockito: A java mocking framework
+- JSONNassert: An assertion library for JSON
+- JsonPath: XPath for JSON
+
+# Integration Testing with @SpringBootTest
+![Screenshot 2024-07-03 at 09 01 57](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5dc97255-c639-461d-ada8-a4760ae08ac1)
+
+
+![Screenshot 2024-07-03 at 09 04 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/3c98f76b-f906-414a-afae-0b104241cbca)

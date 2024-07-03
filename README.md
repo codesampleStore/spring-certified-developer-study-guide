@@ -1553,5 +1553,52 @@ K - type of primary key
 # Integration Testing with @SpringBootTest
 ![Screenshot 2024-07-03 at 09 01 57](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5dc97255-c639-461d-ada8-a4760ae08ac1)
 
-
 ![Screenshot 2024-07-03 at 09 04 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/3c98f76b-f906-414a-afae-0b104241cbca)
+
+![Screenshot 2024-07-03 at 09 47 06](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/5d5b1c2d-6107-4c1b-b6ae-479397f049ed)
+
+![Screenshot 2024-07-03 at 09 50 50](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/fdc065b4-6da8-4117-8fed-26ca78b4fdca)
+
+![Screenshot 2024-07-03 at 09 52 02](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/29e56e5d-5f72-4157-9e48-4dd04a5b1ebb)
+
+![Screenshot 2024-07-03 at 09 52 54](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/03cd7d1f-352a-4741-8dfd-af23dc678175)
+
+![Screenshot 2024-07-03 at 09 55 38](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/2111c037-38e6-451e-a08b-b77e6ed2fc73)
+
+![Screenshot 2024-07-03 at 09 56 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/481d88b6-49d1-4891-a7da-4df53d07f235)
+
+![Screenshot 2024-07-03 at 09 56 43](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d9d00499-96f3-42b0-8b60-cdf09d7fea86)
+
+![Screenshot 2024-07-03 at 09 57 17](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/efb19f06-a493-4192-b711-0578ebf68b5c)
+
+![Screenshot 2024-07-03 at 09 58 12](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/79ff9edf-6d7f-4e64-a4cd-1531b83b10af)
+
+- @AutoConfigureMockMvc 
+- @Autowired
+  MockMvc mockMvc
+
+  It does not start embedded Server container.  
+
+
+
+# "Slice" Testing
+
+![Screenshot 2024-07-03 at 10 25 40](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e7340b46-eadc-4a85-9f8b-f1f0db48494d)
+- @WebMvcTest
+- @MockBean - from Spring Boot Framework, use it when Spring context is needed
+- @Mock - from Mock Framework, use it when Spring context is not needed
+
+
+![Screenshot 2024-07-03 at 10 31 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/6b8a23f4-546b-4454-a46e-e196156431b5)
+
+![Screenshot 2024-07-03 at 10 36 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/4369cc1f-f9b8-4d44-b740-142eb2ddf231)
+
+![Screenshot 2024-07-03 at 10 39 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/1a6c27b8-a8cb-4cb4-92a6-8301f3f8df12)
+
+
+# Repository Slice Testing with @DataJpaTest
+
+
+![Screenshot 2024-07-03 at 10 42 50](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0adc01ab-7937-4b45-acbb-a4958216de2c)
+
+

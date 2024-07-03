@@ -1597,8 +1597,29 @@ K - type of primary key
 
 
 # Repository Slice Testing with @DataJpaTest
-
+--------
 
 ![Screenshot 2024-07-03 at 10 42 50](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0adc01ab-7937-4b45-acbb-a4958216de2c)
+
+
+----
+
+SpringBootTest bootstrap the whole context, embedded server is being started. 
+```
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+```
+```
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.BDDMockito.*;
+import static org.mockito.Mockito.verify;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+```
+
+
+![Screenshot 2024-07-03 at 11 35 27](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/ee3541eb-6fb7-4c20-934e-804d2aee54ee)
+
+![Screenshot 2024-07-03 at 11 35 39](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/9ce43db1-4045-4490-9372-00f61dff4f66)
+
 
 

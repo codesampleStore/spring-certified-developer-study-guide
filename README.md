@@ -1105,6 +1105,25 @@ If a class is annotated with @ResponseBody, all of its request handler methods w
 </br></br>
 
 
+> Spring Securitt Filter Chain - 1
+
+![Screenshot 2024-07-05 at 09 43 26](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d12537bf-bf27-447a-9aa7-22eb35cb5d77)
+
+![Screenshot 2024-07-05 at 09 44 01](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d24be79d-b3db-4589-80fa-3c9acebb3e66)
+
+![Screenshot 2024-07-05 at 09 44 47](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/17aece8e-2dd9-4786-941d-c86953ecfb5e)
+
+> Spring Security Configuration
+
+![Screenshot 2024-07-05 at 09 48 47](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/105877f5-715b-4d5d-b1ac-efed51e1778b)
+
+![Screenshot 2024-07-05 at 09 50 23](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/dd6cd0bc-b7f6-4608-9e56-0818448261b0)
+
+![Screenshot 2024-07-05 at 09 51 16](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/e69096de-d4fd-436e-982f-5fedf50f7562)
+
+![Screenshot 2024-07-05 at 09 58 12](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/6ace7468-f946-4a79-aea5-82f91bca6f73)
+
+
 # 11. SPRING BOOT ACTUATOR <a id="11-spring-boot-actuator-" href="#11"></a>
 
 ## SAMPLE PROJECTS

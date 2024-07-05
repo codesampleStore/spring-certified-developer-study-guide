@@ -1124,6 +1124,23 @@ If a class is annotated with @ResponseBody, all of its request handler methods w
 ![Screenshot 2024-07-05 at 09 58 12](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/6ace7468-f946-4a79-aea5-82f91bca6f73)
 
 
+> AuthenticationProvider & UserDetailsService
+![Screenshot 2024-07-05 at 10 06 38](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/c58c8fbd-eb6d-403b-a007-84b24dac2ace)
+
+![Screenshot 2024-07-05 at 10 07 04](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/d18f126f-dcce-4cca-b256-8a5cd0666eb8)
+
+![Screenshot 2024-07-05 at 10 08 21](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/c964d8ad-1596-4e52-8b32-f2535a937899)
+
+![Screenshot 2024-07-05 at 10 09 45](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b31c544a-c36c-48cb-9a2a-5df0a5a08039)
+
+
+![Screenshot 2024-07-05 at 10 10 13](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/b708ae47-7c1a-4369-928f-36b9810917a6)
+
+
+![Screenshot 2024-07-05 at 10 11 34](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/96d2f445-13da-4e56-95f9-ddc2d6ee50b5)
+
+
+
 # 11. SPRING BOOT ACTUATOR <a id="11-spring-boot-actuator-" href="#11"></a>
 
 ## SAMPLE PROJECTS

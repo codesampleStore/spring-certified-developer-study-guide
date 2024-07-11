@@ -978,6 +978,14 @@ If a class is annotated with @ResponseBody, all of its request handler methods w
 - https://medium.com/wolox/securing-applications-with-jwt-spring-boot-da24d3d98f83
 - https://medium.com/geekculture/spring-security-authentication-process-authentication-flow-behind-the-scenes-d56da63f04fa
 
+
+![Screenshot 2024-07-11 at 10 19 09](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/8c034fdf-6d8f-4822-8630-5cff6e3fcea2)
+/admin/* only matches /admin/xxx
+/admin/** matches /admin
+
+![Screenshot 2024-07-11 at 10 25 18](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0b750fbf-5c21-46cc-96e3-662510396f9b)
+
+
 ## OVERVIEW
 <p>Spring Security by default actives both HTTP security filters and the Security Filter Chain and configures/enforces session-based basic authentication for all URLs.</p> 
 <p>The Spring Security framework provides two options to set up authorization schema configuration: URL-based and Annotation-based.

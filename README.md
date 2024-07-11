@@ -985,6 +985,11 @@ If a class is annotated with @ResponseBody, all of its request handler methods w
 
 ![Screenshot 2024-07-11 at 10 25 18](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/0b750fbf-5c21-46cc-96e3-662510396f9b)
 
+Method Security with SpEL:
+
+![Screenshot 2024-07-11 at 12 15 08](https://github.com/codesampleStore/spring-certified-developer-study-guide/assets/65254124/89fb1469-22df-491d-92d3-e69638259379)
+
+
 
 ## OVERVIEW
 <p>Spring Security by default actives both HTTP security filters and the Security Filter Chain and configures/enforces session-based basic authentication for all URLs.</p> 

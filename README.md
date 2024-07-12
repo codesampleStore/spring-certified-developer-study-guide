@@ -1156,6 +1156,35 @@ Method Security with SpEL:
 
 # 11. SPRING BOOT ACTUATOR <a id="11-spring-boot-actuator-" href="#11"></a>
 
+> /actuator/info
+
+> /actuator/health
+
+> /actuator/metrics
+
+![Screenshot 2024-07-12 at 14 33 27](https://github.com/user-attachments/assets/a367fad0-2aac-470d-a75c-398cdd05737f)
+
+![Screenshot 2024-07-12 at 14 33 49](https://github.com/user-attachments/assets/2e72a0e6-dc7b-481b-a5d2-d62dce85832e)
+
+![Screenshot 2024-07-12 at 14 34 30](https://github.com/user-attachments/assets/b2855728-5ef7-4b99-9fd7-80c99ec60fac)
+
+![Screenshot 2024-07-12 at 14 38 16](https://github.com/user-attachments/assets/05b11b9f-feb9-4831-8710-3dd0245ec848)
+
+![Screenshot 2024-07-12 at 14 41 00](https://github.com/user-attachments/assets/670bafe9-344c-48ba-b8fe-de00f8656a8f)
+
+![Screenshot 2024-07-12 at 14 40 45](https://github.com/user-attachments/assets/3266ef9a-7e20-4fc3-b777-0989cc240f96)
+
+![Screenshot 2024-07-12 at 14 42 51](https://github.com/user-attachments/assets/e7257a5b-bbf9-48d2-a53d-aa8d8f4b7c37)
+
+![Screenshot 2024-07-12 at 14 43 35](https://github.com/user-attachments/assets/25e3d239-e1fe-43b6-9c6c-55f7397f70fd)
+
+![Screenshot 2024-07-12 at 14 44 21](https://github.com/user-attachments/assets/f667cd31-4cea-40c6-8640-f060e875a085)
+
+![Screenshot 2024-07-12 at 14 53 54](https://github.com/user-attachments/assets/1412c48a-2783-414e-88a4-3de53056ed02)
+
+![Screenshot 2024-07-12 at 14 54 18](https://github.com/user-attachments/assets/a3f2c57c-33a5-409f-8971-ff0743c96cad)
+
+
 ## SAMPLE PROJECTS
 - [spring-actuator](./spring-actuator/)
 ### REQUIRIMENT TO USE THE SAMPLE PROJECTS

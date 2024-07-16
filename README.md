@@ -35,7 +35,7 @@ The **Spring Certified Professional** certification offered by VMWare is an exam
  - Testing 
  - Spring Boot Basics
  - Spring Boot Auto Configuration
- - Spring Boot Actuator
+ - Spring Boot tor
  - Spring Boot Testing
 
 ## EXAM INFO
@@ -1184,6 +1184,25 @@ Method Security with SpEL:
 
 ![Screenshot 2024-07-12 at 14 54 18](https://github.com/user-attachments/assets/a3f2c57c-33a5-409f-8971-ff0743c96cad)
 
+![Screenshot 2024-07-16 at 09 22 43](https://github.com/user-attachments/assets/8cf9bf07-8181-4b6e-afa1-614580e166d8)
+
+
+HEALTH INDICATOR
+-----------------
+
+![Screenshot 2024-07-16 at 09 27 32](https://github.com/user-attachments/assets/314e2732-9a67-49ce-b9fc-6744ba26859d)
+
+![Screenshot 2024-07-16 at 09 28 44](https://github.com/user-attachments/assets/0c520775-6f7a-48ff-8887-8b8ab82ef1d6)
+
+![Screenshot 2024-07-16 at 09 29 39](https://github.com/user-attachments/assets/eaffa82d-0adb-451c-bf17-88d4d6c2a5f9)
+
+![Screenshot 2024-07-16 at 09 31 04](https://github.com/user-attachments/assets/0717f71d-9718-47d4-a0f5-244f3ce1f5da)
+
+Custom Health Indicator:
+
+![Screenshot 2024-07-16 at 09 31 59](https://github.com/user-attachments/assets/cbe95c40-8e9b-4e9b-9594-5cd3dd23d862)
+
+![Screenshot 2024-07-16 at 09 34 15](https://github.com/user-attachments/assets/fe61c657-bb00-47d7-9d87-881b1944b2f3)
 
 ## SAMPLE PROJECTS
 - [spring-actuator](./spring-actuator/)

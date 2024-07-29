@@ -49,9 +49,9 @@ test {
 
 2. Test
 
-   ```
-   
 
+   
+```
 package example.cashcard;
 
 import org.junit.jupiter.api.Test;
@@ -93,6 +93,4 @@ class CashCardJsonTest {
 
 }
 
-
-
-   ```
+  ```

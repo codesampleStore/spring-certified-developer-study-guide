@@ -182,6 +182,15 @@ private ResponseEntity<CashCard> findById(@PathVariable Long requestedId) {
 ![Screenshot 2024-08-06 at 11 21 38](https://github.com/user-attachments/assets/988639c6-1792-4628-b697-6eda824e49a4)
 
 ```
+Entity:
+
+package example.cashcard;
+import org.springframework.data.annotation.Id;
+
+record CashCard( @Id Long id, Double amount) {
+}
+
+
 @Repository
 public interface CashCardRepository extends JpaRepository<CashCard,Long>, JpaSpecificationExecutor<CashCard> {
 
@@ -197,3 +206,12 @@ cashCard = cashCardRepository.findById(99);
 
 
 ```
+
+6. Controller shouldn't be concerned with checking IDs or creating data.
+7. H2 database
+```
+   // Add the two dependencies below
+   implementation 'org.springframework.data:spring-data-jdbc'
+   implementation 'com.h2database:h2'
+```
+   

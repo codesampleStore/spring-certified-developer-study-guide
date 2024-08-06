@@ -155,7 +155,7 @@ class CashCardController {
 
 4. PathVariable
 
-   ```
+```
    @Test
 void shouldNotReturnACashCardWithAnUnknownId() {
   ResponseEntity<String> response = restTemplate.getForEntity("/cashcards/1000", String.class);
@@ -173,4 +173,27 @@ private ResponseEntity<CashCard> findById(@PathVariable Long requestedId) {
         return ResponseEntity.notFound().build();
     }
 }
-   ```
+```
+
+
+
+5. Repositories & Spring Data
+
+![Screenshot 2024-08-06 at 11 21 38](https://github.com/user-attachments/assets/988639c6-1792-4628-b697-6eda824e49a4)
+
+```
+@Repository
+public interface CashCardRepository extends JpaRepository<CashCard,Long>, JpaSpecificationExecutor<CashCard> {
+
+}
+
+--OR--
+
+interface CashCardRepository extends CrudRepository<CashCard, Long> {
+}
+
+
+cashCard = cashCardRepository.findById(99);
+
+
+```

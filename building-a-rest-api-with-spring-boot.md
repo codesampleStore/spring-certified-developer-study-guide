@@ -151,3 +151,26 @@ class CashCardController {
     }
 }
 ```  
+
+
+4. PathVariable
+
+   ```
+   @Test
+void shouldNotReturnACashCardWithAnUnknownId() {
+  ResponseEntity<String> response = restTemplate.getForEntity("/cashcards/1000", String.class);
+
+  assertThat(response.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+  assertThat(response.getBody()).isBlank();
+}
+
+   @GetMapping("/{requestedId}")
+private ResponseEntity<CashCard> findById(@PathVariable Long requestedId) {
+    if (requestedId.equals(99L)) {
+        CashCard cashCard = new CashCard(99L, 123.45);
+        return ResponseEntity.ok(cashCard);
+    } else {
+        return ResponseEntity.notFound().build();
+    }
+}
+   ```

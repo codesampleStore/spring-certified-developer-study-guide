@@ -214,4 +214,20 @@ cashCard = cashCardRepository.findById(99);
    implementation 'org.springframework.data:spring-data-jdbc'
    implementation 'com.h2database:h2'
 ```
-   
+
+8.  update the test output section of build.gradle with showStandardStreams = true, so that our test runs will produce a lot more output.
+```
+ test {
+ testLogging {
+     events "passed", "skipped", "failed" //, "standardOut", "standardError"
+
+     showExceptions true
+     exceptionFormat "full"
+     showCauses true
+     showStackTraces true
+
+     // Change from false to true
+     showStandardStreams = true
+ }
+}
+```

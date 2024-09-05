@@ -279,3 +279,54 @@ Our CashCardController now implements the expected input and results of an HTTP 
     Finally, we return 201 CREATED with the correct Location header.
 
 
+10. Returning a list with GET
+
+Pagination and Sorting
+
+To start our pagination and sorting work, we’ll use a specialized version of the CrudRepository, called the PagingAndSortingRepository. As you might guess, this does exactly what its name suggests. But first, let’s talk about the “Paging” functionality.
+
+Even though we’re unlikely to have users with thousands of Cash Cards, we never know how users might use the product. Ideally, an API should not be able to produce a response with unlimited size, because this could overwhelm the client or server memory, not to mention taking quite a long time!
+    
+```
+Page<CashCard> page2 = cashCardRepository.findAll(
+    PageRequest.of(
+        1,  // page index for the second page - indexing starts at 0
+        10, // page size (the last page might have fewer items)
+        Sort.by(new Sort.Order(Sort.Direction.DESC, "amount"))));
+```
+
+
+The URI
+
+Now let’s learn how we can compose a URI for the new endpoint, step-by-step (we've omitted the https://domain prefix in the following):
+
+    Get the second page
+
+  ```  /cashcards?page=1```
+
+    …where a page has length of 3
+
+   ``` /cashcards?page=1&size=3```
+
+    …sorted by the current Cash Card balance
+
+  ```  /cashcards?page=1&size=3&sort=amount```
+
+    …in descending order (highest balance first)
+
+  ```  /cashcards?page=1&size=3&sort=amount,desc```
+
+The Java Code
+
+Let’s go over the complete implementation of the Controller method for our new “get a page of Cash Cards” endpoint:
+```
+@GetMapping
+private ResponseEntity<List<CashCard>> findAll(Pageable pageable) {
+   Page<CashCard> page = cashCardRepository.findAll(
+           PageRequest.of(
+                   pageable.getPageNumber(),
+                   pageable.getPageSize(),
+                   pageable.getSortOr(Sort.by(Sort.Direction.DESC, "amount"))));
+   return ResponseEntity.ok(page.getContent());
+}
+```
